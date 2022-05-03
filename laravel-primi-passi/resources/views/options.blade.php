@@ -70,8 +70,8 @@
                 </div>
 
                 <div class="links">
-                    <a href="{{ url('/home') }}">Home</a>
-                    <a href="{{ url('') }}">Welcome</a>
+                    <a href="{{ route('home') }}">Home</a>
+                    <a href="{{ route('/') }}">Welcome</a>
                 </div>
             </div>
         </div>
